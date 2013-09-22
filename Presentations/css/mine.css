@@ -1,0 +1,203 @@
+.first_heading h1 {
+  margin-bottom:50px;
+ }
+
+.first_heading img {
+	 width: 150px;
+	 height: 150px;
+	 background-color: white !important;
+	 margin-right:20px !important;
+	 margin-bottom:-30px !important;
+}
+
+.fushnisoft_heading h1 {
+  margin-bottom:50px;
+ }
+
+.fushnisoft_heading img {
+	 width: 150px;
+	 height: 150px;
+	 margin-right:20px !important;
+	 margin-bottom:-30px !important;
+	 background-color: #111111 !important;
+	 border-style: none !important;
+}
+
+.piwik-transitions {
+	 width: 400px;
+	 height: auto;
+	 float: left;
+	 margin-right:20px !important;
+	 margin-top: 40px !important;
+	 background-color: #111111 !important;
+	 border-style: none !important;
+}
+
+span.piwik-color1{color:#ffcd05;}
+span.piwik-color2{color:#f7971d;}
+span.piwik-color3{color:#f16721;}
+span.piwik-color4{color:#cb1f25;}
+span.piwik-color5{color:#630d0d;}
+
+
+.header {
+  position: fixed;
+  display: block;
+  height: 30px;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: black !important;
+}
+
+.header small {
+  vertical-align: middle;
+}
+
+.header-right {
+  position: fixed;
+  height: 30px;
+  width: 300px;
+  right: 0;
+  top: 10px;
+  z-index: 10;
+  font-size: 75% !important;
+}
+
+//---
+@import url(http://fonts.googleapis.com/css?family=Oswald|Bangers|Press+Start+2P|Raleway+Dots);
+
+h1.comic,
+h2.comic,
+h3.comic,
+h4.comic {
+  font-family: "Bangers";
+  letter-spacing: 0em;
+}
+
+h1.spoken,
+h2.spoken,
+h3.spoken,
+h4.spoken {
+  font-family: 'Oswald';
+}
+
+h1.computer,
+h2.computer,
+h3.computer,
+h4.computer {
+  font-family: 'Press Start 2P';
+  letter-spacing: 0em;
+}
+
+h1.dotted,
+h2.dotted,
+h3.dotted,
+h4.dotted {
+  font-family: 'Raleway Dots';
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+}
+
+.reveal .box {
+  border: 8px solid gray;
+  border-radius: 16px;
+  padding: 8px;
+  display: inline-block;
+}
+.reveal .box-interface {
+  border-radius: 0;
+  background-color: #d0d0d0;
+}
+.reveal .box-store {
+}
+.reveal .box-section {
+  display: block;
+  margin: -8px !important;
+  padding: 8px;
+  line-height: 40px;
+}
+
+.reveal .box-green {
+  background-color: #35aa47;
+}
+
+.reveal .box-interface.box-section {
+  background-color: #d0d0d0;
+  color: black;
+}
+.reveal .box-section-top {
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 8px !important;
+  border-bottom: 4px solid gray;
+}
+.reveal .box-section-bottom {
+  border-radius: 0 0 8px 8px;
+  margin-top: 8px !important;
+  border-top: 4px solid gray;
+}
+
+.reveal .box-section-middle {
+  margin-top: 8px !important;
+  border-top: 4px solid gray;
+}
+
+.reveal .box-section-row {
+  display: table;
+  width: 100%
+}
+.reveal .box-section-row > * {
+  display: table-cell;
+  text-align: center;
+}
+
+.reveal .transition-above  {
+  border: 8px dotted gray;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.reveal .transition-below  {
+  border: 8px dotted gray;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.reveal ul.unstyled {
+  list-style-type: none;
+  margin-left: 0;
+}
+.reveal ul.inline > li {
+  margin-right: 0.75em;
+  line-height: 60px; 
+  display: inline-block;
+}
+.reveal ul.inline > li:last-child {
+  margin-right: 0; 
+}
+
+.reveal .layer-info {
+  font-style: italic;
+}
+
+.reveal ul.diagram-layers {
+  line-height: 60px;
+}
+
+.reveal ul.diagram-layers > li {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.reveal ul.diagram-layers > li > ul {
+  text-align: center;
+}
+
+.reveal td > ul.unstyled {
+  margin-bottom: 30px;
+}
+
+.reveal .simple {
+  z-index: 1;
+  box-shadow: none;
+}

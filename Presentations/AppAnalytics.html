@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>App Analytics - Fushnisoft</title>
+
+		<meta name="description" content="A stylish, integrated StartPage for the Clarion IDE and so much more!">
+		<meta name="author" content="Brahn Partridge, Fushnisoft">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/mine.css" >
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<!-- =========================================================================== -->
+				<!-- START PAGE  -->
+				<!-- =========================================================================== -->
+				<section>
+					<div class="fushnisoft_heading">
+						<h1 ><img class="Fushnisoft" src="img/qrcode-fushnisoft.png" alt="fushnisoft" >App Analytics</h1>
+					</div>
+					<blockquote cite="http://en.wikipedia.org/wiki/Analytics">
+						<p>Analytics is the discovery and communication of meaningful patterns in data.</p>
+						<footer> —
+							<cite>
+								<a title="Analytics" href="http://en.wikipedia.org/wiki/Analytics">Wikipedia</a>
+							</cite>
+						</footer>
+					</blockquote>
+				</section>
+				<!-- =========================================================================== -->
+				<!-- GOALS and GAG  -->
+				<!-- =========================================================================== -->
+				<section data-background="#4b8df8">
+					<!-- =========================================================================== -->
+					<!-- GOALS  -->
+					<!-- =========================================================================== -->
+					<section>
+						<h2>Goals of this session</h2>
+						<ul>
+							<li><strong>Discovering Analytics</strong> - what is it, what options are there?</li>
+							<li><strong>Buzzwords</strong> - Metrics, Telemetrics, Analytics, Big Data...</li>
+							<li><strong>Code</strong> - .NET Interop, Clarion wrappers and the Invoice.app!</li>
+						</ul>
+						<img class="piwik-transitions" src="img/piwik-transitions.png" alt="piwik-transitions" >
+						<p><br /><em>Learn how to gather real-time and relevant information about how your software is being used and to use that to make development decisions based on actual data.</em></p>
+					</section>
+					<!-- =========================================================================== -->
+					<!-- GAG  -->
+					<!-- =========================================================================== -->
+					<section>
+						<h2>Big Data</h2>
+						<blockquote>
+						<img src="img/easy_analysis.gif">
+						<footer> —
+							<cite>
+								<a title="Big Data" href="http://www.biocomicals.com/comics/2012/09/04/just-with-one-button/easy_analysis/">Biocomicals</a>
+							</cite>
+						</footer>
+						</blockquote>
+					</section>
+				</section>
+				<!-- =========================================================================== -->
+				<!-- WHAT ARE ANALYTICS?  -->
+				<!-- =========================================================================== -->
+				<section>
+					<section>
+						<h2>Seriously</h2>
+							<h2>What are Analytics?!</span>?!</h2>
+						<ul>
+							<li class="fragment" data-fragment-index="2">Business Analytics</li>
+							<li class="fragment" data-fragment-index="3">Operational Analytics</li>
+							<li class="fragment" data-fragment-index="4">Web Analytics</li>
+							<li class="fragment" data-fragment-index="5">App Analytics</li>
+						</ul>
+						<blockquote class="fragment fade-out" data-fragment-index="1">
+							<p>... analytics relies on the simultaneous application of statistics, computer programming and operations research to quantify performance. Analytics often favors data visualization to communicate insight.</p>
+							<footer> —
+								<cite>
+									<a title="Analytics" href="http://en.wikipedia.org/wiki/Analytics">Wikipedia</a>
+								</cite>
+							</footer>
+						</blockquote>
+					</section>
+					<section>
+						<blockquote>
+						<img src="img/types-of-analytics.png">
+						<footer> — 
+							<cite>
+								<a title="Big Data" href="http://www.slideshare.net/NeilRaden/understanding-analytics-types-and-needs">Understanding analytics types and needs</a>
+							</cite>
+							<small>Neil Raden, Jan 08, 2013</small>
+						</footer>
+						</blockquote>
+					</section>
+				</section>
+				<!-- =========================================================================== -->
+				<!-- THE OPTIONS  -->
+				<!-- =========================================================================== -->
+				<section data-background="#35aa47">
+					<h2>What are the options?</h2>
+					<p>
+						<em>Looking specifically to App Analytics, what options exist already and how to use them from Clarion...</em>
+					</p>
+					<ul>
+						<li><a HREF="https://www.google.com/analytics/">Google Analytics</a></li>
+						<li><a href="http://www.ibm.com/analytics/us/en/index.html">IBM Analytics</a></li>
+						<li><a href="http://deskmetrics.com/">DeskMetrics</a></li>
+						<li>
+							<div class="fragment grow">
+								<div class="fragment shrink">
+									<a href="http://www.trackerbird.com/">TrackerBird</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="fragment grow">
+								<div class="fragment shrink">
+									<a href="http://www.little-software-stats.com/">Little software Stats</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="fragment grow">
+								<div class="fragment shrink">
+									<a href="http://www.openwebanalytics.com/">Open Web Analytics (OWA)</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="fragment grow">
+								<div class="fragment shrink">
+									<a href="https://www.splunkstorm.com/">Splunk>Storm</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="fragment grow">
+								<div class="fragment shrink">
+									<a href="http://piwik.org/">Piwik</a>
+								</div>
+							</div>
+						</li>
+						<li>KissMetrics, Mint, Flurry, Countly, Mixpanel, etc!</li>
+					</ul>
+				</section>
+				<!-- =========================================================================== -->
+				<!-- WHY PIWIK  -->
+				<!-- =========================================================================== -->
+				<section>
+					<section>
+						<h2>So Why 
+						<span class="piwik-color1">P</span><span class="piwik-color2">i</span><span class="piwik-color3">w</span><span class="piwik-color4">i</span><span class="piwik-color5">k</span>?</h2>
+						<ul>
+							<li>Self Hosted</li>
+							<li>Open source (and free!)</li>
+							<li>Active development</li>
+							<li>Great features</li>
+							<li>Familiarity</li>
+						</ul>
+						<p><br /><a href="http://Piwik.org">http://Piwik.org</a></p>
+					</section>
+					<section>
+						<h3>Real-Time Map</h3>
+						<div id="widgetIframe"><iframe width="100%" height="500px" src="http://analytics.fushnisoft.net/index.php?module=Widgetize&action=iframe&widget=1&moduleToWidgetize=UserCountryMap&actionToWidgetize=realtimeMap&idSite=18&period=range&date=last30&disableLink=1&widget=1" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe></div>
+					</section>
+					<section>
+						<h3>Page Titles</h3>
+						<div id="widgetIframe"><iframe width="100%" height="500px" src="http://analytics.fushnisoft.net/index.php?module=Widgetize&action=iframe&widget=1&moduleToWidgetize=Actions&actionToWidgetize=getPageTitles&idSite=18&period=range&date=last30&disableLink=1&widget=1" scrolling="yes" frameborder="0" marginheight="0" marginwidth="0"></iframe></div>
+					</section>
+					<section>
+						<h3>Custom Variables</h3>
+						<div id="widgetIframe"><iframe width="100%" height="350" src="http://analytics.fushnisoft.net/index.php?module=Widgetize&action=iframe&widget=1&moduleToWidgetize=CustomVariables&actionToWidgetize=getCustomVariables&idSite=18&period=range&date=last30&disableLink=1&widget=1" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe></div>
+					</section>
+				</section>
+				<!-- =========================================================================== -->
+				<!-- SOLUTION STACK  -->
+				<!-- =========================================================================== -->
+				<section data-background="#852b99">
+					<section>
+						<h2>The Solution Stack</h2>
+						<ul>
+							<li><span style="background-color:none;">
+								<span class="piwik-color1">P</span><span class="piwik-color2">i</span><span class="piwik-color3">w</span><span class="piwik-color4">i</span><span class="piwik-color5">k</span>
+								</span> - LAMP or WAMP</li>
+							<li>Visual Studio, C#</li>
+							<li>Clarion, ConsoleSupport and Invoice.app</li>
+						</ul>
+					</section>
+					<section>
+						<h2>LAMP or WAMP</h2>
+						<p><em>Use whichever works best for you, as long as it meets the requirements for Piwik!</em></p>
+						<ul>
+							<li>VMWare Workstation for testing locally is handy.</li>
+							<li>Grab a virtual appliance - BitNami Stack for Piwik</li><a href="http://bitnami.com/stack/piwik">http://bitnami.com/stack/piwik</a>
+							<li>Production host - anything from simple shared hosting to high availablitly cloud providers.</li>
+							<li>Highly recommended - <a href="http://hosting.fushnisoft.net/"><img width="25%" style="vertical-align: middle;" src="img/logo_hosting.png"></a
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Visual Studio</h2>
+						<ul>
+							<li>Javascript Tracking tag, Image tracking, or using the API</li>
+							<li>REST API Clients - PHP, Java, Python C#, etc.</li><a href="http://piwik.org/docs/tracking-api/">http://piwik.org/docs/tracking-api/</a>
+							<li>Official <span class="piwik-color1">P</span><span class="piwik-color2">i</span><span class="piwik-color3">w</span><span class="piwik-color4">i</span><span class="piwik-color5">k</span> C# Tracking API client from GitHub - <a href="https://github.com/piwik/piwik-dotnet-tracker">https://github.com/piwik/piwik-dotnet-tracker</a></li>
+							<li>Unmanaged Exports (DllExport for .Net) - <a href="https://www.nuget.org/packages/UnmanagedExports">https://www.nuget.org/packages/UnmanagedExports</a>
+						</ul>
+						<pre><code data-trim>
+[DllExport("DoTest", CallingConvention = System.Runtime.InteropServices.CallingConvention.StdCall)]
+public static void DoTest(string text)
+{
+  Console.Write(text);
+}
+						</code></pre>
+					</section>
+					<section>
+						<h2>Clarion Implementation</h2>
+						<p>ConsoleSupport Class - very handy for testing class libraries!</p>
+<pre><code data-trim>
+Main                    PROCEDURE()
+Console                   ConsoleSupport
+  CODE
+  IF Console.Init() 
+    Halt()
+  END
+  Console.WriteLine('*** Clarion console app! ***')	
+</code></pre>
+						<p>CWAnalytics Class:</p>
+<pre><code data-trim>
+&nbsp; INCLUDE('LoadLibClass.inc'),ONCE
+&nbsp; INCLUDE('CStringClass.inc'),ONCE
+&nbsp; INCLUDE('DotNetSupport.inc'),ONCE
+
+CWAnalytics          Class(DotNetSupport),Type,etc...
+
+_LoadLib                &LoadLibClass
+
+GetNetProperty		PROCEDURE(STRING pClassName, etc...
+GetFileVersionInfo	PROCEDURE(STRING pFileName, etc...
+Init			PROCEDURE(STRING pPiwikUrl, etc...
+LogEnvironment		PROCEDURE(STRING pProperty, etc...
+PowershellInvoke	PROCEDURE(STRING pScript, etc...
+SetUserAgent		PROCEDURE(STRING pUserAgent, etc...
+SimplePageView		PROCEDURE(STRING pUrl, etc...
+SetCustomVariable	PROCEDURE(LONG pID, etc...
+                     END
+</code></pre>
+					</section>
+				</section>
+				<section data-background="#d84a38">
+					<h2>and some more code...</h2>
+					<ul>
+						<li>Demo of the <code>ConsoleSupport</code> class</li>
+						<li>Demo of <code>GetNetProperty</code> !!</li>
+						<li>Demo of <code>PowershellInvoke</code> !!</li>
+						<li>Looking at the <a href="http://piwik.local">http://piwik.local</a></li>
+						<li>Now let's put it together in the Invoice.app</li>
+						<li>Looking <a href="http://piwik.local">http://piwik.local</a> again.</li>
+					</ul>
+				</section>
+				<section>
+					<h2>What did we learn?</h2>
+					<ul>
+						<li>What Analytics Are</li><small>(at least in a narrow context of Apps I hope!)</small>
+						<li>Some new buzzwords?</li>
+						<li>A bunch of new code, go get it on GitHub!</li>
+					</ul>
+
+				</section>
+			</div> <!-- /slides -->
+			<!-- =========================================================================== -->
+			<!-- GLOBAL STUFF  -->
+			<!-- =========================================================================== -->
+			<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+			<div class="progress"><span></span></div>
+			<div class="header">
+				<small><a style="color:white;" target="_blank" href="http://devstart.io/cidc2013">
+					<img class="Fushnisoft" src="img/fushnisoft-logo_24x24.png" alt="fushnisoft" >
+					fushnisoft.com/cidc2013</a></small>
+			</div>
+			<div class="header-right">
+				<small>Created by <a target="_blank" href="http://fushnisoft.com">Brahn Partridge</a> / <a target="_blank" href="http://twitter.com/fushnisoft">@fushnisoft</a></small>
+			</div>
+		</div> <!-- /reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				loop: true,
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 1.0,
+				maxScale: 2.0,
+				//autoSlide: 2000,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,796 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"com",
+				"completeHtml"
+			],
+			[
+				"Dat",
+				"data"
+			],
+			[
+				"char",
+				"chartObj"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "AppAnalytics.html",
+			"settings":
+			{
+				"buffer_size": 8942,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/AAAPackageDev/Support/JSON to Property List.sublime-build",
+	"command_palette":
+	{
+		"height": 160.0,
+		"selected_items":
+		[
+			[
+				"Snippet: tab",
+				"Snippet: <table>"
+			],
+			[
+				"cla",
+				"Set Syntax: Clarion"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"poa",
+				"Package Control: Disable Package"
+			],
+			[
+				"fin",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"find",
+				"FindKeyConflicts: Command Search"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"cha",
+				"Change tracker: Highlight changes"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"msb",
+				"Set Syntax: MSBuild"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togg",
+				"View: Toggle Status Bar"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"key",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"findk",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"schem",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"select",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"liq",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"cl",
+				"Set Syntax: Clarion"
+			],
+			[
+				"ht",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"clarion",
+				"Set Syntax: Clarion"
+			],
+			[
+				"xsl",
+				"Set Syntax: XSL"
+			],
+			[
+				"bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"x",
+				"Indent XML"
+			],
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"u",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 562.0
+	},
+	"console":
+	{
+		"height": 202.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Dev/CIDC2013/Presentations/css/mine.css",
+		"/C/Dev/CIDC2013/Presentations/index.html",
+		"/C/Dev/CIDC2013/Presentations/AppAnalytics.html",
+		"/C/Dev/GitHub/reveal.js/css/reveal.css",
+		"/C/Dev/GitHub/reveal.js/AppAnalytics.html",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Dries Driessen/downloads/shared_classes_and_libs/garbage.inc",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Dries Driessen/downloads/shared_classes_and_libs/JSONHandler.clw",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Dries Driessen/downloads/shared_classes_and_libs/JSONObject.clw",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Dries Driessen/downloads/shared_classes_and_libs/JSONHandler.inc",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Dries Driessen/downloads/shared_classes_and_libs/JSONObject.inc",
+		"/C/Dev/Projects/ClarionAddins/_notes/devstart.md",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/ConsoleSupport.inc",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/CWAnalytics.clw",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/CWAnalytics.inc",
+		"/C/Dev/Fushnisoft/CIDC2013-WebinarIntro.md",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/ConsoleSupport.clw",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/CStringClass.inc",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/CStringClass.clw",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/ConsoleTest.exp",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/DotNetSupport.inc",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/_classes/DotNetSupport.clw",
+		"/C/Users/brahn/Desktop/RouteOptimizer-send-4.json",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/Clarion90.red",
+		"/C/Dev/Projects/ClarionMetroWizard/obj/release/CLARIONMETROWIZARD.EXP",
+		"/C/Dev/Projects/CWAnalytics/Clarion/ConsoleTest/obj/release/ConsoleTest.EXP",
+		"/C/Dev/Clarion/C9/bin/Clarion.exe.manifest",
+		"/C/Users/brahn/Desktop/RouteOptimizer-send-success.json",
+		"/C/Dev/GitHub/piwik-dotnet-tracker/README.md",
+		"/C/Dev/Fushnisoft/CIDC2013-Brahn.md",
+		"/C/Users/brahn/Desktop/ICN_Conversion.md",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/Preferences.sublime-settings",
+		"//tma-dev/TMA-DEV_C/TMA-Dev/SQL/SQL_Scripts/Usefull SQL Scripts (For Debugging)/etickets-import.sql",
+		"/C/Dev/TMA/tmasoftware.com.au/sub_domains/gis/api_data/mine.php",
+		"/C/Dev/TMA/tmasoftware.com.au/sub_domains/gis/api_data/index.php",
+		"/C/Dev/TMA/tmasoftware.com.au/sub_domains/gis/api/api_data.php",
+		"/C/Dev/TMA/Docs/API/vrp.md",
+		"/C/Windows/win.ini",
+		"/C/Dev/TMA/servicevouchers/ServiceMonitor/DevNotes.txt",
+		"/C/Dev/TMA/Docs/Notes/ICN_Conversion.md",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/Markdown (Github Flavored).sublime-settings",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Dev/GitHub/Invoice/Clarion90.red",
+		"/C/Dev/Clarion/C9/bin/Addins/Clarion.addin",
+		"/C/Dev/Clarion/SV Examples/Welcome.txt",
+		"/C/Dev/Clarion/SV Examples/Temp.txt",
+		"/C/Dev/Projects/TestAppI/TestAppI.INI",
+		"/C/Users/brahn/AppData/Local/Temp/changelog.txt",
+		"/C/Dev/GitHub/metro-bootstrap/data.json",
+		"//tma-dev/E/TMA-Other/ICN 4Brahn/Infralution Licencsing/serial.txt",
+		"//tma-dev/e/TMA-Other/servicevouchers/TopSpeedTransferToAccess/Bin/TopSpeedTransferToAccess.vshost.exe.manifest",
+		"//tma-dev/e/TMA-Other/servicevouchers/TopSpeedTransferToAccess/Bin/TopSpeedTransferToAccess.vshost.exe.config",
+		"//tma-dev/e/TMA-Other/servicevouchers/TopSpeedTransferToAccess/Bin/TopSpeedTransferToAccess.exe.config",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/scripts/app.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/scripts/ui-jqueryui.js",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.4/admin/template_content/ui_jqueryui.html",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.4/admin/template_content/charts.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/beta.html",
+		"/C/Dev/Fushnisoft/hosting/Devstart.io/jekyll/index.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/_includes/footer.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/dashboard.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/scripts/rssfeeds.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/scripts/changelogs.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/about-changelog.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/_config.yml",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/app.sublime-project",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/_layouts/default.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/_includes/head.html",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.4/admin/documentation/index.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/plugins/moment.min.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/AddIns.json",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/scripts/myapp.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/css/mystyle.css",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/plugins/bootstrap-tree/bootstrap-tree/js/bootstrap-tree.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/_includes/page_header.html",
+		"//BELTEMPESTII/NewsmanPro/nmp.ini",
+		"//BELTEMPESTII/NewsmanPro/QF0.txt",
+		"//BELTEMPESTII/NewsmanPro/QF1.txt",
+		"//BELTEMPESTII/NewsmanPro/QF7.txt",
+		"//BELTEMPESTII/NewsmanPro/database.inix",
+		"//BELTEMPESTII/NewsmanPro/database.ini",
+		"//BELTEMPESTII/NewsmanPro/bugreport.txt",
+		"//BELTEMPESTII/NewsmanPro/ADSLocal.cfg",
+		"//BELTEMPESTII/NewsmanPro/ads.ini",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/Super Calculator/Default (Windows).sublime-keymap",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/scripts/mypiwik.js",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.4/admin/template_content/index.html",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.4/admin/template_content/inbox.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/index.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/_includes/scripts.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/_includes/footer.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/_includes/sidebar.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/_includes/head.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/index.html",
+		"/C/Dev/Projects/SublimeClarion/README.md",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/app.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/coming-soon.js",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.3/template_content/charts.html",
+		"/C/Dev/TMA/Docs/Notes/allocations.md",
+		"/C/Dev/iSell/AutoTask/ClarionWrapper/AutoTask.clw",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/app.sublime-project",
+		"/C/Users/brahn/AppData/Local/Temp/Temp1_TripsGateway GPF report.zip/TripsGateway GPF report.txt",
+		"/C/Users/brahn/AppData/Local/Temp/Temp1_Trips2012 GPF Report.zip/Trips2012 GPF Report.txt",
+		"/C/Dev/TMA/Docs/API/notes.md",
+		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/9.0/AddIns.xml",
+		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/9.0/ClarionProperties.xml",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/mypiwik.js",
+		"/C/Users/brahn/Desktop/test.js",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/lock.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/recent.js",
+		"/C/Dev/Clarion/C9/accessory/addins/ClarionAddins/_site/assets/AddIns.json",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/AddinManager.js",
+		"/C/Dev/TMA/tmasoftware.com.au/sub_domains/gis/api/api.php",
+		"/C/Dev/TMA/Docs/API/readme.md",
+		"/C/Dev/TMA/clarence.md",
+		"/C/Dev/TMA/script.sql",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/addinmanager.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/addinmanager-temp.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/_config.yml",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/clarionaddins.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/AddIns.json",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/myapp.js",
+		"/C/Dev/Clarion/C9/accessory/addins/ClarionAddins/clarion.devstart.io/_site/assets/AddIns.json",
+		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/8.0/SnakeTail.xml",
+		"/C/Users/brahn/Desktop/test.txt",
+		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.3/template_content/ui_modals.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/recent.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Dev\\Clarion\\C9, *.clw,*.inc",
+			"C:\\Dev\\Clarion\\C9, *.addin",
+			"<project>",
+			"C:\\Dev\\Clarion\\C9, *.addin",
+			"C:\\Users\\brahn\\Dropbox\\Programs\\Sublime Text x64\\Data\\Packages, *tm*",
+			"C:\\Users\\brahn\\Dropbox\\Programs\\Sublime Text x64\\Data\\Packages",
+			"C:\\Dev\\fushnisoft\\themeforest\\metronic\\metronic_1.3\\template_content",
+			"C:\\Dev\\fushnisoft\\themeforest\\metronic\\metronic_1.3",
+			"C:\\Dev\\Projects\\ClarionAddins\\OpenSource\\SetTheme\\CustomThemes",
+			"C:\\Dev\\Clarion\\C9, *.addin",
+			"C:\\Dev\\Projects\\ClarionAddins\\ClosedSource\\Web Pages\\clarion.devstart.io\\_site\\assets, *.*",
+			"C:\\Dev\\Clarion\\C9, *.addin",
+			"C:\\Dev\\Clarion\\C8, *.addin",
+			"C:\\Dev\\Fushnisoft\\wpmudev\\wiki\\, *.*",
+			"C:\\Dev\\Fushnisoft\\themeforest\\themeforest-3434096-responsive-knowledge-base-faq-wordpress-theme\\knowledgepress-package\\knowledgepress\\, *.*",
+			"C:\\Dev\\Fushnisoft\\wpmudev\\wiki\\, *.*",
+			"C:\\Dev\\Fushnisoft\\themeforest\\themeforest-3434096-responsive-knowledge-base-faq-wordpress-theme\\knowledgepress-package\\knowledgepress\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"C:\\Dev\\Clarion\\decompiled\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"C:\\Dev\\Clarion\\decompiled\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"C:\\Dev\\piwik, *.*",
+			"c:\\Dev\\Clarion\\C9\\LibSrc\\win\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"C:\\Dev\\Clarion\\decompiled\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"C:\\Dev\\Clarion\\decompiled\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.inc",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"C:\\Dev\\Projects\\ClarionAddins\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.addin",
+			"c:\\Dev\\Clarion\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C8\\, *.*",
+			"c:\\Dev\\Clarion\\C9\\, *.*",
+			"c:\\Dev\\Clarion\\C8\\, *.*",
+			"C:\\Dev\\Fushnisoft\\hosting\\fushnisoft\\_backup\\whmcs\\whmcs, *.*",
+			"C:\\Dev\\Fushnisoft\\hosting\\fushnisoft\\_backup\\whmcs\\whmcs",
+			"c:\\Dev\\Clarion\\C8\\, *.addin",
+			"c:\\Dev\\Clarion\\C8\\, *.*",
+			"c:\\Dev\\Clarion\\C8\\, *.addin",
+			"c:\\Dev\\Clarion\\C8\\, *.clw, *.inc"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"table",
+			"first_head",
+			"\",",
+			"fromAddress",
+			"\",\n",
+			"fromAddress",
+			"tma",
+			"tma_CStringClass",
+			"tma_Tracker",
+			"tma",
+			"tma_",
+			"tma_Cs",
+			"vStr",
+			"EndOfInclude",
+			"address",
+			"json",
+			"clients",
+			"Behavior",
+			"behaviour",
+			"indentation",
+			"config",
+			"widget",
+			"dialog_info",
+			"info_opener",
+			"slimscroll",
+			"portlet",
+			"belt",
+			"post",
+			"postget",
+			"post",
+			"jquery.min.map",
+			".map",
+			"$.get",
+			"- 25",
+			"() -25",
+			"h3",
+			"{",
+			"CHECKCONCURRENTUSERS",
+			"no proc ",
+			"Program : T:\\Trips 2012\\trips.exe",
+			"OCX",
+			"\n",
+			"CHECKCONCURRENTUSERS",
+			"MONITORDATABASEUSERS",
+			".set",
+			"”",
+			"\"1\"",
+			"addInManagerHidden",
+			"isRunningLive",
+			"ajax-modal",
+			"amAjaxLoginForm",
+			"addin",
+			"ctrl+sh",
+			"pulsate",
+			"This will install",
+			"install",
+			"remem",
+			"save",
+			"buffer",
+			"address",
+			"map",
+			"filled",
+			"lazy",
+			"lazyload",
+			"filled",
+			"findnext",
+			"configuration",
+			"printers",
+			"save",
+			"auto",
+			"f12",
+			"entity.name.class",
+			"classLabels",
+			"class",
+			"showInSymbolList",
+			"symbols",
+			"classLabels",
+			"class",
+			"clw",
+			"div",
+			">\n",
+			"timeline-time",
+			"page-sidebar",
+			"body.",
+			".page-s",
+			"page.",
+			"\" type=\"text/javascript\"></script>",
+			"\" type=\"text/javascript\"></script>  ",
+			"check",
+			"input",
+			">",
+			"\"",
+			"_calculateFixedSidebarViewportHeight",
+			"handleSidebarAndContentHeight",
+			"fixContentHeight",
+			"handleResponsive",
+			"handleSidebarAndContentHeight",
+			"min-height",
+			"page-con",
+			"bodyx",
+			"preventDefault",
+			"ajaxify",
+			"dashboard",
+			"footer",
+			"a ",
+			"line",
+			"min-h",
+			"startp",
+			"404",
+			"glyp",
+			"iframe",
+			"version",
+			"IE",
+			"onComplete",
+			"categories",
+			"if (",
+			"CONSOL",
+			"init",
+			"divRss",
+			"bran",
+			"portlet-config",
+			"modal",
+			"github",
+			"sidebar-close",
+			"handleSidebarAndContentHeight",
+			"App.",
+			"sidebar-close",
+			"console"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CStringClass",
+			"CWAnalytics",
+			"",
+			"\"Name\"",
+			"\\\"",
+			"Version=\"18\" ",
+			"50%",
+			"<span class=\\\"row-details row-details-close\\\"><\\/span>",
+			"<\\/span>",
+			"<span class=\"row-details row-details-close\"></span>",
+			"",
+			"\\/assets\\/img\\/",
+			"[\"\",\"",
+			"/",
+			"",
+			"TMACentral_CommAtWork",
+			" ",
+			"\\n",
+			"8.0.0.1-",
+			"8.0.0.1",
+			"END",
+			"IF END",
+			"IF ",
+			"src=\"http://tmasoftware.com.au/_resources/metro-bootstrap/docs",
+			"chart",
+			",",
+			"",
+			"</h4>",
+			"<h4>",
+			"MsSpacer.gif",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "AppAnalytics.html",
+					"settings":
+					{
+						"buffer_size": 8942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2892,
+								2892
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "3ff076b3",
+							"function_name_status_row": -1,
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.aaa_package_dev":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"my",
+				"scripts/myapp.js"
+			],
+			[
+				"app",
+				"scripts/app.js"
+			],
+			[
+				"uij",
+				"scripts/ui-jqueryui.js"
+			],
+			[
+				"changel",
+				"Pages/about-changelog.html"
+			],
+			[
+				"coming",
+				"scripts/coming-soon.js"
+			],
+			[
+				"app.js",
+				"scripts/app.js"
+			],
+			[
+				"side",
+				"clarion.devstart.io/_includes/sidebar.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true
+}
