@@ -17,6 +17,12 @@ Source/CWAnalytics/Clarion/InvoiceApp/*.ini
 Source/CWAnalytics/Clarion/InvoiceApp/*.exe
 
 #################
+## Clarion 
+#################
+
+*.bpp
+
+#################
 ## Visual Studio
 #################
 
