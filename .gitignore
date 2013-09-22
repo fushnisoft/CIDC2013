@@ -5,6 +5,16 @@
 Source/CWAnalytics/Clarion/ConsoleTest/Piwik*.xml
 Source/CWAnalytics/Clarion/ConsoleTest/CWAnalytics.lib
 Source/CWAnalytics/Clarion/ConsoleTest/CWAnalytics.exp
+Source/CWAnalytics/Clarion/InvoiceApp/Cla*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/Soft*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/ICS*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/DevEx*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/Aga*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/Data*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/log*.dll
+Source/CWAnalytics/Clarion/InvoiceApp/*.manifest
+Source/CWAnalytics/Clarion/InvoiceApp/*.ini
+Source/CWAnalytics/Clarion/InvoiceApp/*.exe
 
 #################
 ## Visual Studio
