@@ -68,28 +68,16 @@
 						</blockquote>
 					</section>
 					<section>
-						<h2>when my code runs but is not what I expected</h2>
+						<h2>when I successfully fix a bug in legacy code</h2>
 						<blockquote>
-							<img src="img/funny-helicoptor.gif">
+							<img src="img/funny-legacy-code.gif">
 							<footer> —
 								<cite>
-									<a title="the_coding_love();" href="http://thecodinglove.com/post/60843415803/when-my-code-runs-but-is-not-what-i-expected">the_coding_love();</a>
+									<a title="the_coding_love();" href="http://thecodinglove.com/post/60946709632/when-i-change-the-css">the_coding_love();</a>
 								</cite>
 							</footer>
 						</blockquote>
 					</section>
-					<section>
-						<h2>Me, putting these talks together :)</h2>
-						<blockquote>
-							<img src="img/funny-this-talk.gif">
-							<footer>when I solve a bug 5 minutes before it goes in production —
-								<cite>
-									<a title="the_coding_love();" href="http://thecodinglove.com/post/62060195033/when-i-solve-a-bug-5-minutes-before-it-goes-in">the_coding_love();</a>
-								</cite>
-							</footer>
-						</blockquote>
-					</section>
-
 
 				</section>
 
@@ -251,7 +239,7 @@ icon: icon-user
 						I want your ideas...
 					</p>
 					<p>
-						I would love to hear your ideas:</p><p><a href="http://Devstart.io/feedback">http://Devstart.io/feedback</a>
+						I would love to hear your ideas:</p><p><a href="htto://Devstart.io/feedback">http://Devstart.io/feedback</a>
 					</p>
 				</section>
 
@@ -279,10 +267,9 @@ icon: icon-user
 				history: true,
 				center: true,
 				loop: true,
-
 				// Bounds for smallest/largest possible scale to apply to content
-				minScale: 0.2,
-    			maxScale: 1.0,
+				minScale: 1.0,
+				maxScale: 2.0,
 				//autoSlide: 2000,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
@@ -290,9 +277,10 @@ icon: icon-user
 
 				multiplex: {
 			        secret: '13799412524896515311',
-			        id: '3efd47aaf2e731ec',
+			        socketId: '3efd47aaf2e731ec',
 			        url: 'revealjs.jit.su:80' 
 			    },
+
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -302,6 +290,7 @@ icon: icon-user
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+					{ src: 'plugin/multiplex/client.js', async: true },
 					{ src: 'plugin/multiplex/master.js', async: true }
 				]
 			});

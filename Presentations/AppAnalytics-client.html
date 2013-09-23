@@ -286,7 +286,7 @@ SetCustomVariable	PROCEDURE(LONG pID, etc...
 					<ul>
 						<li>What Analytics Are</li><small>(at least in a narrow context of Apps I hope!)</small>
 						<li>Some new buzzwords?</li>
-						<li>A bunch of new code, go get it on GitHub - <a href="https://github.com/fushnisoft/CIDC2013">fushnisoft/CIDC2013</a>!</li>
+						<li>A bunch of new code, go get it on GitHub!</li>
 					</ul>
 
 				</section>
@@ -328,7 +328,7 @@ SetCustomVariable	PROCEDURE(LONG pID, etc...
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
 				multiplex: {
-			        secret: '13799412524896515311',
+			        secret: null,
 			        id: '3efd47aaf2e731ec',
 			        url: 'revealjs.jit.su:80' 
 			    },
@@ -342,7 +342,7 @@ SetCustomVariable	PROCEDURE(LONG pID, etc...
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
-					{ src: 'plugin/multiplex/master.js', async: true }
+					{ src: 'plugin/multiplex/client.js', async: true }
 				]
 			});
 		</script>
