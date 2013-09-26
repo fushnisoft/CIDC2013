@@ -1,42 +1,3 @@
-.free img {
-	border-style: none !important;	
-	background-color: #111111 !important;
-}
-
-.header {
-  position: fixed;
-  display: block;
-  height: 45px;
-  width: 100%;
-  left: 0;
-  z-index: 10;
-  background-color: black !important;
-  font-size: 75% !important;
-}
-
-.header .preso-link {
-	position:absolute;
-	left: 50px;
-	top: 20px;
-}
-
-.header .profile-link {
-	position:absolute;
-	right:10px;
-	width:400px;
-	top: 20px;
-}
-
-.header-right {
-  position: fixed;
-  height: 50px;
-  width: 210px;
-  right: 0;
-  //top: 10px;
-  z-index: 10;
-  font-size: 75% !important;
-}
-
 .first_heading h1 {
   margin-bottom:50px;
  }
@@ -62,7 +23,6 @@
 	 border-style: none !important;
 }
 
-
 .piwik-transitions {
 	 width: 400px;
 	 height: auto;
@@ -78,6 +38,31 @@ span.piwik-color2{color:#f7971d;}
 span.piwik-color3{color:#f16721;}
 span.piwik-color4{color:#cb1f25;}
 span.piwik-color5{color:#630d0d;}
+
+
+.header {
+  position: fixed;
+  display: block;
+  height: 30px;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: black !important;
+}
+
+.header small {
+  vertical-align: middle;
+}
+
+.header-right {
+  position: fixed;
+  height: 30px;
+  width: 210px;
+  right: 0;
+  top: 10px;
+  z-index: 10;
+  font-size: 75% !important;
+}
 
 //---
 @import url(http://fonts.googleapis.com/css?family=Oswald|Bangers|Press+Start+2P|Raleway+Dots);

@@ -37,11 +37,17 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<div class="first_heading">
-						<h1 ><img class="QRCode" src="img/qrcode-blue.png" alt="QRCode" >Devstart<span style="color:#4b8df8;">.io</span></h1>
-					</div>
-					<blockquote>A stylish, integrated StartPage for the Clarion IDE and so much more!</blockquote>
+					<section>
+						<div class="first_heading">
+							<h1 ><img class="QRCode" src="img/qrcode-blue.png" alt="QRCode" >Devstart<span style="color:#4b8df8;">.io</span></h1>
+						</div>
+						<blockquote>A stylish, integrated StartPage for the Clarion IDE and so much more!</blockquote>
+					</section>
+					<section data-background="white">
+						<img width="75%" class="QRCode" src="img/qrcode-blue.png" alt="QRCode" >
+					</section>
 				</section>
+
 
 				<!-- Example of nested vertical slides -->
 				<section data-background="#4b8df8">
@@ -104,11 +110,11 @@
 									<div class="box-section box-interface box-section-middle">Source/Classes</div>
 									<div class="box-section box-interface box-section-bottom"><div class="fragment fade-in"><strong>** AddIns **</strong></div></div>
 								</li>
-								<li class="box fragment fade-in">Devstart<span style="color:#4b8df8;">.io</span>
+								<li class="box fragment fade-in">Devstart<span style="color:#4b8df8;">.io</span><span class="fragment" data-fragment-index="6"> - FREE!</span>
 									<div class="fragment fade-in box-section box-interface box-section-middle">Recent files, News</div>
 									<div class="fragment fade-in box-section box-interface box-section-middle">Meta data</div>
 									<div class="fragment fade-in box-section box-interface box-section-middle">AddIn management</div>
-									<div class="fragment fade-in box-section box-interface box-section-bottom">Metrics, community</div>
+									<div data-fragment-index="7" class="fragment fade-in box-section box-interface box-section-bottom">Metrics, community</div>
 								</li>
 								<li class="box box-green">CODE
 									<div class="box-section box-interface box-section-middle">Generated code</div>
@@ -117,13 +123,21 @@
 									<div class="box-section box-interface box-section-bottom">Database schemas</div>
 								</li>
 							</ul>
-							<ul class="fragment fade-in box-section box-section-bottom box-interface box-section-row unstyled">
+							<ul data-fragment-index="8" class="fragment fade-in box-section box-section-bottom box-interface box-section-row unstyled">
 								<li><img width="250" src="img/happy-user.gif">
 								</li>
 
 							</ul>			
 						</div>
 					</section>
+					<section>
+						<h2>Free</h2>
+						<blockquote>Online only version, possibly add supported with limited functionality.</blockquote><br />
+						<h2>Essential</h2>
+						<blockquote>Including essential addins from <a href="http://clarionaddins.com" target="_blank">ClarionAddins</a> and basic    project/solution meta data.</blockquote><br />
+						<h2>Ultimate</h2>
+						<blockquote>All <a href="http://clarionaddins.com" target="_blank">ClarionAddins</a>, and as many other cool features I can think of!</blockquote><br />
+						</section>
 					<section>
 						<h2>What is an Addin?</h2>
 						<blockquote>
@@ -258,11 +272,18 @@ icon: icon-user
 			</div>
 			<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
 			<div class="progress"><span></span></div>
+
+			<!-- MY HEADER -->
 			<div class="header">
-				<small><a style="color:white;" target="_blank" href="http://devstart.io/?cidc2013_session">
-					http://Devstart<span style="color:#4b8df8;">.io</span>/cidc2013</a></small>
+				<div class="preso-link">
+					<a style="color:white;" target="_blank" href="http://devstart.io/?cidc2013_session">http://Devstart<span style="color:#4b8df8;">.io</span>/cidc2013</a>
+				</div>
+				<div class="profile-link">
+					<a target="_blank" href="http://fushnisoft.com">Brahn Partridge</a> / <a target="_blank" href="http://twitter.com/fushnisoft">@fushnisoft</a>
+				</div>
 			</div>
-			<div class="header-right"><small><a target="_blank" href="http://fushnisoft.com">Brahn Partridge</a> / <a target="_blank" href="http://twitter.com/fushnisoft">@fushnisoft</a></small></div>
+
+			<!-- MY HEADER -->
 
 		</div>
 
@@ -289,8 +310,8 @@ icon: icon-user
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
 				multiplex: {
-			        secret: '13799412524896515311',
-			        id: '3efd47aaf2e731ec',
+			        secret: '13801457006253013372',
+			        id: 'f53ae2cd2f62e647',
 			        url: 'revealjs.jit.su:80' 
 			    },
 				// Optional libraries used to extend on reveal.js

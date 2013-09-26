@@ -1,8 +1,3 @@
-.free img {
-	border-style: none !important;	
-	background-color: #111111 !important;
-}
-
 .header {
   position: fixed;
   display: block;
@@ -37,16 +32,32 @@
   font-size: 75% !important;
 }
 
+.xfirst_heading {
+	position: absolute	
+	top: -350px;
+ }
+
 .first_heading h1 {
-  margin-bottom:50px;
+	position: relative;
+	top:25px;
+	margin-bottom:100px;
+ }
+
+.first_heading blockquote {
+	right: -250px;
+	width: 550px;
+	position: absolute;
  }
 
 .first_heading img {
-	 width: 150px;
-	 height: 150px;
+/*	 position: relative;	
+	 left: -15px;
+	 top: 40px;
+*/
+	 float: left;
 	 background-color: white !important;
-	 margin-right:20px !important;
-	 margin-bottom:-30px !important;
+	 margin-right:30px !important;
+	 //margin-bottom:-30px !important;
 }
 
 .fushnisoft_heading h1 {
@@ -61,7 +72,6 @@
 	 background-color: #111111 !important;
 	 border-style: none !important;
 }
-
 
 .piwik-transitions {
 	 width: 400px;

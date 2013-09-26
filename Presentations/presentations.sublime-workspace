@@ -28,10 +28,26 @@
 	"buffers":
 	[
 		{
-			"file": "AppAnalytics.html",
+			"file": "/C/Dev/CIDC2013/Notes/Devstart.io.md",
 			"settings":
 			{
-				"buffer_size": 8942,
+				"buffer_size": 11806,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Devstart.io.html",
+			"settings":
+			{
+				"buffer_size": 11890,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Dev/CIDC2013/Notes/AppAnalytics.md",
+			"settings":
+			{
+				"buffer_size": 12405,
 				"line_ending": "Windows"
 			}
 		}
@@ -247,14 +263,16 @@
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": false,
+		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
+		"/C/Dev/CIDC2013/Notes/Setup Notes.md",
+		"/C/Dev/CIDC2013/_support/ClarionConfig/9.0 Clean/ClarionProperties.xml",
+		"/C/Dev/CIDC2013/Presentations/AppAnalytics.html",
 		"/C/Dev/CIDC2013/Presentations/css/mine.css",
 		"/C/Dev/CIDC2013/Presentations/index.html",
-		"/C/Dev/CIDC2013/Presentations/AppAnalytics.html",
 		"/C/Dev/GitHub/reveal.js/css/reveal.css",
 		"/C/Dev/GitHub/reveal.js/AppAnalytics.html",
 		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Dries Driessen/downloads/shared_classes_and_libs/garbage.inc",
@@ -377,9 +395,7 @@
 		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/myapp.js",
 		"/C/Dev/Clarion/C9/accessory/addins/ClarionAddins/clarion.devstart.io/_site/assets/AddIns.json",
 		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/8.0/SnakeTail.xml",
-		"/C/Users/brahn/Desktop/test.txt",
-		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.3/template_content/ui_modals.html",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/recent.html"
+		"/C/Users/brahn/Desktop/test.txt"
 	],
 	"find":
 	{
@@ -616,23 +632,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "AppAnalytics.html",
+					"file": "/C/Dev/CIDC2013/Notes/Devstart.io.md",
 					"settings":
 					{
-						"buffer_size": 8942,
+						"buffer_size": 11806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2892,
-								2892
+								2847,
+								3145
 							]
 						],
 						"settings":
@@ -681,10 +697,157 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"buffer_scroll_name": "3ff076b3",
-							"function_name_status_row": -1,
+							"buffer_scroll_name": "a65e0916",
+							"function_name_status_row": 0,
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/knockdown/Markdown (Github Flavored).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 742.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Devstart.io.html",
+					"settings":
+					{
+						"buffer_size": 11890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2985,
+								3042
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "1a821342",
+							"function_name_status_row": 0,
 							"incomplete_sync": null,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4964.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Dev/CIDC2013/Notes/AppAnalytics.md",
+					"settings":
+					{
+						"buffer_size": 12405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5775,
+								5775
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"buffer_scroll_name": "56837438",
+							"function_name_status_row": 142,
+							"incomplete_sync": null,
+							"syntax": "Packages/knockdown/Markdown (Github Flavored).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -748,6 +911,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"ap",
+				"Notes/AppAnalytics.md"
+			],
+			[
+				"dev",
+				"Presentations/Devstart.io.html"
+			],
 			[
 				"my",
 				"scripts/myapp.js"
