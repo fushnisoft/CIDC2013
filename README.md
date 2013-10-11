@@ -1,25 +1,39 @@
-CIDC2013
-========
+Fushnisoft @ CIDC2013
+=====================
 
-These are all the resources for my CIDC2013 presentations.
+[Clarion International Developers Conference 2013](http://cidc2013.com/)
+
+What a great conference it was! In this repo you will find all the notes and resources used during my two talks at CIDC2013. Hopefully someone will find it helpful...
 
 ## Downloads
 
 I am not sure if this is the right place for this. 
 The directory contains a complete compiled version of the In-App Analytics enabled Invoice.app.
 
+https://github.com/fushnisoft/CIDC2013/tree/master/Downloads
+
 ## Notes
 
-My speaking notes and cheat sheets for the sessions. Well... soon I hope!
+My speaking notes for each session. There is detail in there that I didn't get to cover and probably some missing but mostly only bad jokes. It may be interesting, I may use parts of it on http://clarionedge.com 
+
+https://github.com/fushnisoft/CIDC2013/tree/master/Notes
 
 ## Presentations
 
-Reveal.js based presentations. Hopefully these work ok on a projector :D
+Reveal.js based presentations. I think these were pretty successful, thanks everyone for playing along!
+
+https://github.com/fushnisoft/CIDC2013/tree/master/Presentations
 
 ## Source
 
 All the source code, Clarion and C# for the App Analytics presentation.
 
-For the Devstart.io presenation, go to http://Destart.io and grab yourself a copy!
+https://github.com/fushnisoft/CIDC2013/tree/master/Source
+
+## Devstart.io
+
+And of course go and sign up for your copy of the Devstart.io super StartPage addin!!
+
+http://Destart.io
 
 -brahn
