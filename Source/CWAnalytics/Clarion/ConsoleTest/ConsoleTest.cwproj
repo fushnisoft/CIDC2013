@@ -26,6 +26,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ConsoleTest.clw" />
+    <None Include="Notes.clw" />
+    <None Include="ConsoleTest.exp" />
   </ItemGroup>
   <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
 </Project>

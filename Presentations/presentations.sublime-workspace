@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size"
+			],
+			[
 				"th",
 				"thead	Tag"
 			],
@@ -27,37 +31,41 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Dev/CIDC2013/Notes/Devstart.io.md",
-			"settings":
-			{
-				"buffer_size": 11806,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Devstart.io.html",
-			"settings":
-			{
-				"buffer_size": 11890,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/CIDC2013/Notes/AppAnalytics.md",
-			"settings":
-			{
-				"buffer_size": 12405,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/AAAPackageDev/Support/JSON to Property List.sublime-build",
 	"command_palette":
 	{
-		"height": 160.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"<u",
+				"Snippet: <ul>"
+			],
+			[
+				"<ul",
+				"Snippet: <ul>"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
 			[
 				"Snippet: tab",
 				"Snippet: <table>"
@@ -69,14 +77,6 @@
 			[
 				"ena",
 				"Package Control: Enable Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"dis",
-				"Package Control: Disable Package"
 			],
 			[
 				"disa",
@@ -99,15 +99,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"wr",
-				"Word Wrap: Toggle"
-			],
-			[
 				"wra",
-				"Word Wrap: Toggle"
-			],
-			[
-				"w",
 				"Word Wrap: Toggle"
 			],
 			[
@@ -268,10 +260,36 @@
 	},
 	"file_history":
 	[
-		"/C/Dev/CIDC2013/Notes/Setup Notes.md",
-		"/C/Dev/CIDC2013/_support/ClarionConfig/9.0 Clean/ClarionProperties.xml",
+		"/C/Dev/CIDC2013/Notes/AppAnalytics.md",
+		"/C/Dev/CIDC2013/Notes/Devstart.io.md",
+		"/C/Dev/CIDC2013/Presentations/presentations.sublime-project",
 		"/C/Dev/CIDC2013/Presentations/AppAnalytics.html",
+		"/C/Dev/CIDC2013/Presentations/AppAnalytics-client.html",
+		"/C/Dev/CIDC2013/Presentations/Devstart.io-client.html",
+		"/C/Dev/CIDC2013/Notes/DevstartIdeas.md",
+		"/C/Dev/CIDC2013/Notes/Setup Notes.md",
+		"/C/Dev/CIDC2013/Presentations/plugin/multiplex/master.js",
+		"/C/Dev/CIDC2013/Presentations/plugin/multiplex/client.js",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Brahn Partridge/Presentations/plugin/multiplex/master.js",
+		"/C/Users/brahn/Documents/SugarSync Shared Folders/John Hickey/CIDC 2013 Shared Folder/Presentations/Brahn Partridge/Presentations/AppAnalytics.html",
+		"/C/Dev/CIDC2013/Presentations/Devstart.io.html",
+		"/C/Dev/Clarion/ClarionProperties.xml",
+		"/C/Dev/CIDC2013/Notes/CIDCNotes.md",
+		"/C/Users/brahn/Documents/DVDFab9/Log/dvdfab_internal.log",
+		"/C/Dev/CIDC2013/Notes/ConsoleApp.clw",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Dev/Clarion/C9/accessory/addins/Devstart.io/_site/assets/scripts/app.js",
+		"/C/Dev/Clarion/C9/accessory/addins/Devstart.io/_site/recent.html",
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Devstart.io/Pages/assets/HTML5-Pong/game.html",
+		"/C/Dev/Clarion/SoftVelocity/Clarion/9.0.WithAddins/AddIns/ClarionAddins/SolutionIcons/SolutionIcons.addin",
+		"/C/Dev/CIDC2013/Presentations/css/reveal.css",
 		"/C/Dev/CIDC2013/Presentations/css/mine.css",
+		"/C/Dev/CIDC2013/Presentations/css/mine-old.css",
+		"/C/Dev/CIDC2013/Presentations/css/mine-temp.css",
+		"/C/Dev/CIDC2013/_support/ftp/test.txt",
+		"/C/Dev/CIDC2013/_support/ClarionConfig/9.0 Clean/ClarionProperties.xml",
 		"/C/Dev/CIDC2013/Presentations/index.html",
 		"/C/Dev/GitHub/reveal.js/css/reveal.css",
 		"/C/Dev/GitHub/reveal.js/AppAnalytics.html",
@@ -309,10 +327,8 @@
 		"/C/Windows/win.ini",
 		"/C/Dev/TMA/servicevouchers/ServiceMonitor/DevNotes.txt",
 		"/C/Dev/TMA/Docs/Notes/ICN_Conversion.md",
-		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/MarkdownPreview.sublime-settings",
 		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/Distraction Free.sublime-settings",
 		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/User/Markdown (Github Flavored).sublime-settings",
-		"/C/Users/brahn/Dropbox/Programs/Sublime Text x64/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
 		"/C/Dev/GitHub/Invoice/Clarion90.red",
 		"/C/Dev/Clarion/C9/bin/Addins/Clarion.addin",
 		"/C/Dev/Clarion/SV Examples/Welcome.txt",
@@ -371,31 +387,7 @@
 		"/C/Dev/fushnisoft/themeforest/metronic/metronic_1.3/template_content/charts.html",
 		"/C/Dev/TMA/Docs/Notes/allocations.md",
 		"/C/Dev/iSell/AutoTask/ClarionWrapper/AutoTask.clw",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/app.sublime-project",
-		"/C/Users/brahn/AppData/Local/Temp/Temp1_TripsGateway GPF report.zip/TripsGateway GPF report.txt",
-		"/C/Users/brahn/AppData/Local/Temp/Temp1_Trips2012 GPF Report.zip/Trips2012 GPF Report.txt",
-		"/C/Dev/TMA/Docs/API/notes.md",
-		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/9.0/AddIns.xml",
-		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/9.0/ClarionProperties.xml",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/mypiwik.js",
-		"/C/Users/brahn/Desktop/test.js",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/lock.html",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/recent.js",
-		"/C/Dev/Clarion/C9/accessory/addins/ClarionAddins/_site/assets/AddIns.json",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/AddinManager.js",
-		"/C/Dev/TMA/tmasoftware.com.au/sub_domains/gis/api/api.php",
-		"/C/Dev/TMA/Docs/API/readme.md",
-		"/C/Dev/TMA/clarence.md",
-		"/C/Dev/TMA/script.sql",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/addinmanager.html",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/addinmanager-temp.html",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/_config.yml",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/clarionaddins.html",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/AddIns.json",
-		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/assets/scripts/myapp.js",
-		"/C/Dev/Clarion/C9/accessory/addins/ClarionAddins/clarion.devstart.io/_site/assets/AddIns.json",
-		"/C/Users/brahn/AppData/Roaming/SoftVelocity/Clarion/8.0/SnakeTail.xml",
-		"/C/Users/brahn/Desktop/test.txt"
+		"/C/Dev/Projects/ClarionAddins/ClosedSource/Web Pages/clarion.devstart.io/app.sublime-project"
 	],
 	"find":
 	{
@@ -406,6 +398,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"C:\\Dev\\CIDC2013\\Presentations",
 			"C:\\Dev\\Clarion\\C9, *.clw,*.inc",
 			"C:\\Dev\\Clarion\\C9, *.addin",
 			"<project>",
@@ -456,6 +449,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"multiplex",
+			"WorkbenchMemento",
+			"stack",
+			"href",
+			"width",
+			"community",
+			"free",
+			"href",
+			"fad",
+			"align",
+			"bord",
+			"img",
+			"first_heading",
+			"TODO",
 			"table",
 			"first_head",
 			"\",",
@@ -569,21 +576,7 @@
 			"iframe",
 			"version",
 			"IE",
-			"onComplete",
-			"categories",
-			"if (",
-			"CONSOL",
-			"init",
-			"divRss",
-			"bran",
-			"portlet-config",
-			"modal",
-			"github",
-			"sidebar-close",
-			"handleSidebarAndContentHeight",
-			"App.",
-			"sidebar-close",
-			"console"
+			"onComplete"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -632,229 +625,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Dev/CIDC2013/Notes/Devstart.io.md",
-					"settings":
-					{
-						"buffer_size": 11806,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2847,
-								3145
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"buffer_scroll_name": "a65e0916",
-							"function_name_status_row": 0,
-							"incomplete_sync": null,
-							"spell_check": true,
-							"syntax": "Packages/knockdown/Markdown (Github Flavored).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 742.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Devstart.io.html",
-					"settings":
-					{
-						"buffer_size": 11890,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2985,
-								3042
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"buffer_scroll_name": "1a821342",
-							"function_name_status_row": 0,
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4964.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Dev/CIDC2013/Notes/AppAnalytics.md",
-					"settings":
-					{
-						"buffer_size": 12405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5775,
-								5775
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"buffer_scroll_name": "56837438",
-							"function_name_status_row": 142,
-							"incomplete_sync": null,
-							"syntax": "Packages/knockdown/Markdown (Github Flavored).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -958,10 +730,10 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true
 }
