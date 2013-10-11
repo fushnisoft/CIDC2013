@@ -38,6 +38,4 @@ http://Destart.io
 
 -brahn
 
-<!-- Piwik Image Tracker -->
-<img src="http://analytics.fushnisoft.net/piwik.php?idsite=19&amp;rec=1&amp;action_name=readme.md" style="border:0" alt="" />
-<!-- End Piwik -->
+![analytics](http://analytics.fushnisoft.net/piwik.php?idsite=19&amp;rec=1&amp;action_name=readme.md)
