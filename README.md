@@ -37,3 +37,7 @@ And of course go and sign up for your copy of the Devstart.io super StartPage ad
 http://Destart.io
 
 -brahn
+
+<!-- Piwik Image Tracker -->
+<img src="http://analytics.fushnisoft.net/piwik.php?idsite=19&amp;rec=1" style="border:0" alt="" />
+<!-- End Piwik -->
